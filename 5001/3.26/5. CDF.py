@@ -21,7 +21,7 @@ plt.rcParams['font.size'] = 18
 plt.rcParams['font.family'] = 'Times New Roman'
 # known probabilities
 probabilities = np.array([0.0625, 0.25, 0.375, 0.25, 0.0625])
-tails_outcomes = np.arange(5)  # 0到4次尾面的次数
+tails_outcomes = np.arange(5)  # 0 to 4
 # calculate the cumulative distribution
 cumulative_probabilities = np.cumsum(probabilities)
 # plot the probability distribution
