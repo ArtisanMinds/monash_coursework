@@ -1,6 +1,21 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+CPD can also be implemented using a scatter plot with a straight line in Excel
+
+X	Y
+0	0.0625
+0.9999	0.0625
+1	0.3125
+1.9999	0.3125
+2	0.6875
+2.9999	0.6875
+3	0.9372
+3.9999	0.9372
+4	1
+
+"""
 # set the font size to 18 and the font family to Times New Roman
 plt.rcParams['font.size'] = 18
 plt.rcParams['font.family'] = 'Times New Roman'
